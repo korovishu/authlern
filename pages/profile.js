@@ -18,6 +18,9 @@ function Profile () {
             >
                 Sign in with Google
             </button>
+            <button className="ml-10" onClick = {() => Auth.signOut()}>
+                Sign out
+            </button>
         </div>
     )
 }
